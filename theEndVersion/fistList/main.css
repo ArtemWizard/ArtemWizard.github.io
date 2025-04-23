@@ -1,6 +1,6 @@
 @font-face {
     font-family: WalsheimHard;
-    src: url("https://github.com/ArtemWizard/ArtemWizard.github.io/blob/main/fonts/GTWalsheimPro-Hard.woff") format("woff");
+    src: url("https://ArtemWizard.github.io/blob/main/fonts/GTWalsheimPro-Hard.woff") format("woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: WalsheimMedium;
-    src: url("https://github.com/ArtemWizard/ArtemWizard.github.io/blob/main/fonts/GTWalsheimPro-Medium.woff") format("woff");
+    src: url("https://ArtemWizard.github.io/blob/main/fonts/GTWalsheimPro-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: WalsheimThin;
-    src: url("https://github.com/ArtemWizard/ArtemWizard.github.io/blob/main/fonts/GTWalsheimPro-Thin.woff") format("woff");
+    src: url("https://ArtemWizard.github.io/blob/main/fonts/GTWalsheimPro-Thin.woff") format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
