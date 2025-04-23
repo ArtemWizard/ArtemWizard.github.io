@@ -1,0 +1,122 @@
+@font-face {
+    font-family: WalsheimMedium;
+    src: url("/Math project/fonts/GTWalsheimPro-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: WalsheimThin;
+    src: url("/Math project/fonts/GTWalsheimPro-Thin.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.headerText{
+    color: white;
+    font-family: WalsheimMedium;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+.headerText:hover{
+    color: #ffc200;
+}
+
+header{
+    background: #a93edc;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+}
+
+nav{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#line{
+    height: 105px;
+    width: 100%;
+    background: #333333;
+}
+
+.menu{
+    color: #ffffff;
+}
+
+.menu:hover{
+    color: blueviolet;
+}
+
+#mainMenu{
+    position: relative;
+    left: 20%;
+    top: 40px;
+    font-family: WalsheimThin;
+    font-size: 25px;
+}
+
+#menu2{
+    position: absolute;
+    left: 20%;
+    bottom: 30px;
+}
+
+.block{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 140px;
+    font-family: WalsheimThin;
+    font-size: 25px;
+}
+
+#squaresOfDifferences{
+    position: relative;
+    top: 220px;
+}
+
+#differencesOfSquares{
+    position: relative;
+    top: 320px;
+}
+
+#differencesOfCubes{
+    position: relative;
+    top: 420px;
+}
+
+#sumOfCubes{
+    position: relative;
+    top: 520px;
+}
+
+#cubeOfSum{
+    position: relative;
+    top: 620px;
+}
+
+#cubeOfDiffrence{
+    position: relative;
+    top: 720px;
+}
+
+.end{
+    text-decoration: underline;
+    color: white;
+}
+
+.end:hover{
+    color: #03c0d9;
+}
