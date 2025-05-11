@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Практика: Квадрат разности</title>
+</head>
+<body>
+
+    <link rel="stylesheet" href="1.css">
+
+    <div class="header">
+        <a href="../../../../index.html">НА ГЛАВНУЮ</a>
+        <a href="../../../theory/theory.html">ТЕОРИЯ</a>
+        <a href="../../choose_practice/choose_practice.html">ПРАКТИКА</a>
+    </div>
+
+    <div class="container">
+        <h1>Практика: Квадрат разности</h1>
+
+        <div class="question">
+            <div class="difficulty">Лёгкий уровень</div>
+            <div class="expression-line">
+                <label for="answer1">1. (z - 3)<sup>2</sup> =</label>
+                <input type="text" id="answer1" placeholder="Введите ответ...">
+            </div>
+            <div class="result" id="result1"></div>
+        </div>
+
+        <div class="question">
+            <div class="difficulty">Лёгкий уровень (обратный)</div>
+            <div class="expression-line">
+                <label for="answer2">2. f<sup>2</sup> - 6f + 9 =</label>
+                <input type="text" id="answer2" placeholder="Сверните в скобки...">
+            </div>
+            <div class="result" id="result2"></div>
+        </div>
+
+        <div class="question">
+            <div class="difficulty">Средний уровень</div>
+            <div class="expression-line">
+                <label for="answer3">3. (2b - 5)<sup>2</sup> =</label>
+                <input type="text" id="answer3" placeholder="Введите ответ...">
+            </div>
+            <div class="result" id="result3"></div>
+        </div>
+
+        <div class="question">
+            <div class="difficulty">Средний уровень (обратный)</div>
+            <div class="expression-line">
+                <label for="answer4">4. 9r<sup>2</sup> - 24rh + 16h<sup>2</sup> =</label>
+                <input type="text" id="answer4" placeholder="Сверните в скобки...">
+            </div>
+            <div class="result" id="result4"></div>
+        </div>
+
+        <div class="question">
+            <div class="difficulty">Сложный уровень</div>
+            <div class="expression-line">
+                <label for="answer5">5. (5j - 2q)<sup>2</sup> =</label>
+                <input type="text" id="answer5" placeholder="Введите ответ...">
+            </div>
+            <div class="result" id="result5"></div>
+        </div>
+
+        <div class="center-buttons">
+            <button type="button" id="insertBtn">Вставить ²</button>
+            <button onclick="checkAllAnswers()">Проверить все</button>
+        </div>
+    </div>
+
+    <script src="1.js"></script>
+
+</body>
+</html>

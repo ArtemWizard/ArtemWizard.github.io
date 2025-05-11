@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Практика: Разность кубов</title>
+</head>
+<body>
+
+    <link rel="stylesheet" href="1.css">
+
+    <div class="header">
+        <a href="../../../../index.html">НА ГЛАВНУЮ</a>
+        <a href="../../../theory/theory.html">ТЕОРИЯ</a>
+        <a href="../../choose_practice/choose_practice.html">ПРАКТИКА</a>
+    </div>
+
+    <div class="container">
+        <h1>Практика: Разность кубов</h1>
+
+        <div class="question">
+            <div class="difficulty">Лёгкий уровень</div>
+            <div class="expression-line">
+                <label for="answer1">1. x³ − 8 =</label>
+                <input type="text" id="answer1" placeholder="Введите ответ...">
+            </div>
+            <div class="result" id="result1"></div>
+        </div>
+
+        <div class="question">
+            <div class="difficulty">Лёгкий уровень (обратный)</div>
+            <div class="expression-line">
+                <label for="answer2">2. (x − 2)(x² + 2x + 4) =</label>
+                <input type="text" id="answer2" placeholder="Сверните в скобки...">
+            </div>
+            <div class="result" id="result2"></div>
+        </div>
+
+        <div class="question">
+            <div class="difficulty">Средний уровень</div>
+            <div class="expression-line">
+                <label for="answer3">3. 27a³ − 64 =</label>
+                <input type="text" id="answer3" placeholder="Введите ответ...">
+            </div>
+            <div class="result" id="result3"></div>
+        </div>
+
+        <div class="question">
+            <div class="difficulty">Средний уровень (обратный)</div>
+            <div class="expression-line">
+                <label for="answer4">4. (3a − 4)(9a² + 12a + 16) =</label>
+                <input type="text" id="answer4" placeholder="Сверните в скобки...">
+            </div>
+            <div class="result" id="result4"></div>
+        </div>
+
+        <div class="question">
+            <div class="difficulty">Сложный уровень</div>
+            <div class="expression-line">
+                <label for="answer5">5. 64x³ − 125y³ =</label>
+                <input type="text" id="answer5" placeholder="Введите ответ...">
+            </div>
+            <div class="result" id="result5"></div>
+        </div>
+
+        <div class="center-buttons">
+            <button type="button" id="insertBtn">Вставить ²</button>
+            <button type="button" id="insertBtn2">Вставить ³</button>
+            <button onclick="checkAllAnswers()">Проверить все</button>
+        </div>
+    </div>
+
+    <script src="1.js"></script>
+
+</body>
+</html>
