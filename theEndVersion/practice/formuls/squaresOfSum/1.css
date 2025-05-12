@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-    border-bottom: 4px solid #222;
+    border-bottom: 4px solid #575757;
 }
 
 .header a {
@@ -31,8 +31,13 @@
     color: #ffc200;
 }
 
+input {
+    background: #2b2a33;
+    outline: #2b2a33;
+}
+
 body {
-    background-color: #f3f4f6;
+    background-color: #1e2022;
     margin: 0;
     padding: 0;
     font-family: WalsheimMedium;
@@ -40,10 +45,11 @@ body {
 .container {
     max-width: 800px;
     margin: auto;
-    background: white;
+    background: #181a1b;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    color: white;
 }
 h1 {
     text-align: center;
