@@ -52,11 +52,11 @@ document.getElementById('insertBtn2').addEventListener('mousedown', e => {
 });
 
 const answers = {
-    answer1: ["x²+4x+4", "x²+4+4x", "4x+4+x²", "4x+x²+4", "4+4x+x²", "4+x²+4x", "х²+4х+4", "х²+4+4х", "4х+4+х²", "4х+х²+4", "4+4х+х²", "4+х²+4х"],
-    answer2: ["(x+3)²", "x²+6x+9"],
-    answer3: ["4x²+20x+25", "(2x+5)²"],
-    answer4: ["(3a+4b)²", "9a²+24ab+16b²"],
-    answer5: ["25x²+20xy+4y²", "(5x+2y)²"]
+    answer1: ["(u+3)(u²-3u+9)", "(u²-3u+9)(u+3)"],
+    answer2: ["u³+27", "27+u³", "3³+u³", "u³+3³"],
+    answer3: ["(2i+3)(4i²-6i+9)", '(4i²-6i+9)(2i+3)'],
+    answer4: ["8r³+27", "27+8r³", '8r³+3³', '3³+8r³'],
+    answer5: ["(5q+4d)(25q²-20qd+16d²)", "(25q²-20qd+16d²)(5q+4d)"]
 };
 
 function normalize(str) {
@@ -82,7 +82,7 @@ function checkAllAnswers() {
             resultDiv.classList.add('correct');
         } else {
             resultDiv.style.color = 'red';
-            resultDiv.textContent = `❌ Неверно. Правильные ответы: ${correctVariants[0]}`;
+            resultDiv.textContent = `❌ Неверно. Правильный ответ: ${correctVariants[0]}`;
             resultDiv.classList.remove('correct');
         }
     }

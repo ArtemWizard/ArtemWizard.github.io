@@ -51,8 +51,6 @@ body {
     color: #ffc200;
 }
 
-
-/* Контейнер для содержимого */
 .main-container {
     display: flex;
     justify-content: center;

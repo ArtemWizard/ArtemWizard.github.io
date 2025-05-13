@@ -65,7 +65,7 @@ function checkAllAnswers() {
             resultDiv.classList.add('correct');
         } else {
             resultDiv.style.color = 'red';
-            resultDiv.textContent = `❌ Неверно. Правильные ответы: ${correctVariants[0]}`;
+            resultDiv.textContent = `❌ Неверно. Правильный ответ: ${correctVariants[0]}`;
             resultDiv.classList.remove('correct');
         }
     }

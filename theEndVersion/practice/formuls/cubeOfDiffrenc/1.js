@@ -52,11 +52,11 @@ document.getElementById('insertBtn2').addEventListener('mousedown', e => {
 });
 
 const answers = {
-    answer1: ["x²+4x+4", "x²+4+4x", "4x+4+x²", "4x+x²+4", "4+4x+x²", "4+x²+4x", "х²+4х+4", "х²+4+4х", "4х+4+х²", "4х+х²+4", "4+4х+х²", "4+х²+4х"],
-    answer2: ["(x+3)²", "x²+6x+9"],
-    answer3: ["4x²+20x+25", "(2x+5)²"],
-    answer4: ["(3a+4b)²", "9a²+24ab+16b²"],
-    answer5: ["25x²+20xy+4y²", "(5x+2y)²"]
+    answer1: ["f³-6f²+12f-8"],
+    answer2: ["(t-2)³","(-2+t)³"],
+    answer3: ["8s³-36s²+54s-27"],
+    answer4: ["(2h-3)³", "(-3+2h)³"],
+    answer5: ["64g³-240g²i+300gi²-125i³"]
 };
 
 function normalize(str) {
@@ -82,7 +82,7 @@ function checkAllAnswers() {
             resultDiv.classList.add('correct');
         } else {
             resultDiv.style.color = 'red';
-            resultDiv.textContent = `❌ Неверно. Правильные ответы: ${correctVariants[0]}`;
+            resultDiv.textContent = `❌ Неверно. Правильный ответ: ${correctVariants[0]}`;
             resultDiv.classList.remove('correct');
         }
     }
