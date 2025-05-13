@@ -20,53 +20,77 @@ body{
     background: #0d0d0d;
 }
 
-#headerText{
-    color: white;
-    font-size: 35px;
-    text-transform: uppercase;
-    margin: 0 20px;
+* {
+    box-sizing: border-box;
 }
 
-#header {
+body {
+    margin: 0;
+    background-color: #111;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.header {
     background-color: #0097a7;
     padding: 20px 0;
     display: flex;
     justify-content: center;
     gap: 40px;
     border-bottom: 4px solid #222;
-    font-family: WalsheimMedium;
 }
 
-#header a {
+.header a {
+    font-family: WalsheimMedium;
     color: white;
     font-size: 25px;
 }
 
-#header a:hover {
+.header a:hover {
     color: #ffc200;
 }
 
-.menu{
-    color: #ffffff;
+
+/* Контейнер для содержимого */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px); /* вычитаем высоту шапки */
+    padding: 20px;
+    font-family: WalsheimMedium;
 }
 
-.menu:hover{
-    color: blueviolet;
+.content-wrapper {
+    max-width: 600px;
+    width: 100%;
 }
 
-#mainMenu{
-    position: relative;
-    left: 20%;
-    top: 40px;
-    font-family: WalsheimThin;
-    font-size: 25px;
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px 40px;
+    justify-content: center;
+}
+
+.content-grid a {
     color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    padding-bottom: 2px;
+    transition: all 0.2s ease;
 }
 
-#menu2{
-    position: absolute;
-    left: 20%;
-    bottom: 30px;
+.content-grid a:hover {
+    color: #ddd;
+    border-color: #ddd;
 }
 
 .block{
