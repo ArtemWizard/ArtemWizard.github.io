@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Практика: Разность квадратов</title>
+    <title>Практика: Куб суммы</title>
 </head>
 <body>
 
-    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="../squaresOfSum/1.css">
 
     <div class="header">
         <a href="../../../../index.html">НА ГЛАВНУЮ</a>
@@ -15,12 +15,12 @@
     </div>
 
     <div class="container">
-        <h1>Практика: Разность квадратов</h1>
+        <h1>Практика: Куб суммы</h1>
 
         <div class="question">
             <div class="difficulty">Лёгкий уровень</div>
             <div class="expression-line">
-                <label for="answer1">1. r² − 16 =</label>
+                <label for="answer1">1. ( f + 1 )³ =</label>
                 <input type="text" id="answer1" placeholder="Введите ответ...">
             </div>
             <div class="result" id="result1"></div>
@@ -29,7 +29,7 @@
         <div class="question">
             <div class="difficulty">Лёгкий уровень (обратный)</div>
             <div class="expression-line">
-                <label for="answer2">2. (b + 4)(b − 4) =</label>
+                <label for="answer2">2. j³ + 3j² + 3j + 1 =</label>
                 <input type="text" id="answer2" placeholder="Сверните в скобки...">
             </div>
             <div class="result" id="result2"></div>
@@ -38,7 +38,7 @@
         <div class="question">
             <div class="difficulty">Средний уровень</div>
             <div class="expression-line">
-                <label for="answer3">3. 25t² − 36 =</label>
+                <label for="answer3">3. ( 3l + 2 )³ =</label>
                 <input type="text" id="answer3" placeholder="Введите ответ...">
             </div>
             <div class="result" id="result3"></div>
@@ -47,7 +47,7 @@
         <div class="question">
             <div class="difficulty">Средний уровень (обратный)</div>
             <div class="expression-line">
-                <label for="answer4">4. (5w + 6)(5w − 6) =</label>
+                <label for="answer4">4. 27b³ + 54b² + 36b + 8 =</label>
                 <input type="text" id="answer4" placeholder="Сверните в скобки...">
             </div>
             <div class="result" id="result4"></div>
@@ -56,7 +56,7 @@
         <div class="question">
             <div class="difficulty">Сложный уровень</div>
             <div class="expression-line">
-                <label for="answer5">5. 49s² − 64z² =</label>
+                <label for="answer5">5. ( 5z + 2v )³ =</label>
                 <input type="text" id="answer5" placeholder="Введите ответ...">
             </div>
             <div class="result" id="result5"></div>
@@ -64,11 +64,12 @@
 
         <div class="center-buttons">
             <button type="button" id="insertBtn">Вставить ²</button>
+            <button type="button" id="insertBtn2">Вставить ³</button>
             <button onclick="checkAllAnswers()">Проверить все</button>
         </div>
     </div>
 
-    <script src="1.js"></script>
+    <script src="../squaresOfSum/1.js"></script>
 
 </body>
 </html>
